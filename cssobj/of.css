@@ -1,0 +1,47 @@
+body{
+	background:url("bakg.jpg") no-repeat;
+    background-size: cover;	
+	overflow-y:hidden;
+}
+
+#wrapper{
+position: absolute; 
+width: 1000px; 
+margin-left: -500px; 
+left: 50%;
+}
+
+#ball{
+	cursor: pointer;
+	position: relative;
+	left: 350px;
+}
+.blokk{
+	padding:5px;
+	background: black;
+	margin: 0 auto;
+	width: 80%;
+	opacity: 0.6;
+	filter: alpha(Opacity=70);
+	border-radius: 10px; 
+	position:relative;
+	top:540px;
+}
+.blok2{
+	padding:5px;
+	background: black;
+	margin: 0 auto;
+	width: 80%;
+	opacity: 0.3;
+	filter: alpha(Opacity=70);
+    border-radius: 20px 10px 5px 0;
+	position:relative;
+	top:600px;
+	width:1270px;
+	left: -145px;
+}
+#field{
+	top:250px;
+	height: 420px;
+	position: absolute;
+}
